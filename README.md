@@ -63,6 +63,12 @@ Extracted delivery performance metrics, satisfaction scores, seller performance 
 ---
 <h2 align="center">Data Cleaning & Transformation</h2>
 
+Before any cleaning strategy could be applied, eight relational tables required a deliberate load sequence — tables with no dependencies loaded first, tables with relational dependencies loaded after their prerequisites existed.
+
+Duplicate review records posed the highest data integrity risk in the cleaning process — a single order carrying more than one review misrepresents the customer's true satisfaction, and at **547** duplicates across order_reviews that distortion compounds into unreliable satisfaction benchmarks at the marketplace level. The **4.09** average review score and the **1.72** point gap between on-time and late deliveries both depend on review records accurately representing one experience per order. Resolving it required three successive approaches before the deduplication held — the most recent review per order was preserved. Where two reviews shared an identical creation date, the higher review score was retained as the tiebreaker.
+
+Cleaning then moved column by column across all eight tables — each decision made on the specific characteristics of the column and its role in the analysis rather than a uniform rule applied across all of them.
+
 | Strategy | Table | Column | Decision |
 |---|---|---|---|
 | Blank string to NULL | products  | product_category_name | **610** blank strings converted to NULL before flag logic applied |
@@ -77,6 +83,8 @@ Extracted delivery performance metrics, satisfaction scores, seller performance 
 | Flag, do not impute | products | flag_suspect_weight | **6** records flagged — no reliable imputation exists without knowing actual product weight |
 | Structural validation | orders | timestamp nulls | **160**, **1,783**, and **2,965** nulls structurally valid — orders never approved, never picked up, or never delivered have no timestamps by definition |
 | Window-based deduplication | order_reviews | review records | **551** records removed — most recent and highest-scored review per order preserved |
+
+With all eight tables structurally sound and cleaning decisions documented across every retained column, the data entering the analysis was positioned to answer where Olist's marketplace underperforms and which combination of seller behavior, product category, and delivery patterns drives the highest concentration of risk.
 
 ---
 <h2 align="center">Key Findings</h2>
