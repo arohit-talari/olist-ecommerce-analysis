@@ -32,3 +32,37 @@ Before analysis began, the geolocations table was excluded entirely and columns 
 | **Total Records** | 99,441 orders · 112,650 line items across order_items |
 | **Tables Retained** | 8 of 9 - geolocation excluded |
 | **Structure** | Relational, order-level analytical dataset |
+
+--- 
+<h2 align="center">Analytical Methods</h2>
+
+<h3 align="left">Relational Data Integration</h3>
+
+No single table contained sufficient information to answer the core question independently — every meaningful finding required combining order, seller, product, customer, payment, and review data simultaneously across eight relational tables.
+
+<h3 align="left">Missingness and Invalid Value Strategy</h3>
+
+Eight distinct data quality scenarios were resolved on their own terms — each handled according to its specific characteristics rather than a blanket rule applied uniformly across all eight tables.
+
+<h3 align="left">Derived Metric Construction</h3>
+
+Constructed three derived metrics from raw source fields — none existed in the source data. **is_late_delivery** measured binary delivery outcome across **96,478** delivered orders. **delivery_days_variance** measured the magnitude of early and late deliveries in days — revealing Olist's estimates are systematically conservative by an average of **11.9** days. **freight_ratio** measured shipping cost as a proportion of product price — in high freight burden categories, customers pay nearly as much or more in shipping as the product itself.
+
+<h3 align="left">Delivery Performance and Satisfaction Cross-Analysis</h3>
+
+Examined how delivery outcome translates into customer satisfaction across geographic, category, and seller dimensions simultaneously — confirming a **1.72** point review score gap between on-time and late deliveries on a 5-point scale. Delivery timing is the single largest lever Olist has on customer satisfaction, and the primary driver of review score variation across the entire marketplace.
+
+<h3 align="left">Composite Risk Segmentation</h3>
+
+Combined seller late delivery rate and average review score against marketplace benchmarks to classify **3,095** sellers into four performance tiers. The revenue at risk calculation — **$5,562,819.39** carried by **308** sellers delivering late above benchmark and generating below-benchmark satisfaction simultaneously — translates operational underperformance directly into a financial exposure figure.
+
+<h3 align="left">SQL Execution</h3>
+
+Extracted delivery performance metrics, satisfaction scores, seller performance tiers, and revenue exposure figures across **99,441** orders and eight relational tables — applying multi-table JOINs and window functions to support every layer of the analysis from data preparation through composite risk profiling.
+
+---
+
+
+
+
+
