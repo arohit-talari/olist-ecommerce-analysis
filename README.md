@@ -93,9 +93,9 @@ With all eight tables structurally sound and cleaning decisions documented for e
 
 | Metric | Value |
 |---|---|
-| **Late Delivery Rate** | 8.11% across 96,478 delivered orders |
-| **Average Review Score** | 4.09 across 98,673 orders |
-| **Total Marketplace Revenue** | $16,008,872.12 across 99,441 orders |
+| **Late Delivery Rate** | **8.11%** across **96,478** delivered orders |
+| **Average Review Score** | **4.09** across **98,673** reviews |
+| **Total Marketplace Revenue** | **$16,008,872.12** across **99,441** orders |
 
 <h3 align="left">Finding 1 - Olist's delivery promise is systematically conservative but operationally fragile</h3>
 
