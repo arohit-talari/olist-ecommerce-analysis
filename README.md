@@ -84,7 +84,7 @@ Cleaning moved column by column across all eight tables — each decision made o
 | Structural validation | `orders` | `order_approved_at`, `order_delivered_carrier_date`, `order_delivered_customer_date` | **160**, **1,783**, and **2,965** missing values structurally valid — orders never approved, never picked up, or never delivered have no timestamps by definition |
 | Duplicate review removal | `order_reviews` | `review records` | **551** records removed. Most recent review per order preserved — higher review score retained as tiebreaker for identical creation dates |
 
-With all eight tables structurally sound and cleaning decisions documented across every retained column, the data entering the analysis was positioned to answer where Olist's marketplace underperforms and which combination of seller behavior, product category, and delivery patterns drives the highest concentration of risk.
+With all eight tables structurally sound and cleaning decisions documented for every retained column, the data entering the analysis was positioned to answer where Olist's marketplace underperforms and which combination of seller behavior, product category, and delivery patterns drives the highest concentration of risk.
 
 ---
 <h2 align="center">Key Findings</h2>
