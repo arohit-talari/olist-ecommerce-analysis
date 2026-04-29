@@ -97,13 +97,13 @@ With all eight tables structurally sound and cleaning decisions documented acros
 | **Average Review Score** | 4.09 across 98,673 orders |
 | **Total Marketplace Revenue** | $16,008,872.12 across 99,441 orders |
 
-<h2 align="center">Olist's delivery promise is systematically conservative but operationally fragile</h2>
-<h2 align="center">Delivery outcome is the primary driver of customer satisfaction</h2>
-<h2 align="center">November 2017 and Q1 2018 represent the two most severe operational findings</h2>
-<h2 align="center">Maranhão (MA) underperforms on both sides of the transaction simultaneously</h2>
-<h2 align="center">Freight burden and late delivery risk concentrate in the same categories</h2>
-<h2 align="center">bed_bath_table is the highest commercial risk category</h2>
-<h2 align="center">27.39% of marketplace revenue flows through the highest-risk seller segment</h2>
+<h3 align="center">Olist's delivery promise is systematically conservative but operationally fragile</h3>
+<h3 align="center">Delivery outcome is the primary driver of customer satisfaction</h3>
+<h3 align="center">November 2017 and Q1 2018 represent the two most severe operational findings</h3>
+<h3 align="center">Maranhão (MA) underperforms on both sides of the transaction simultaneously</h3>
+<h3 align="center">Freight burden and late delivery risk concentrate in the same categories</h3>
+<h3 align="center">bed_bath_table is the highest commercial risk category</h3>
+<h3 align="center">27.39% of marketplace revenue flows through the highest-risk seller segment</h3>
 
 
 ---
