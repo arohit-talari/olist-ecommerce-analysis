@@ -97,14 +97,33 @@ With all eight tables structurally sound and cleaning decisions documented acros
 | **Average Review Score** | 4.09 across 98,673 orders |
 | **Total Marketplace Revenue** | $16,008,872.12 across 99,441 orders |
 
-<h3 align="center">Finding 1 - Olist's delivery promise is systematically conservative but operationally fragile</h3>
-<h3 align="center">Finding 2 - Delivery outcome is the primary driver of customer satisfaction</h3>
-<h3 align="center">Finding 3 - November 2017 and Q1 2018 represent the two most severe operational findings</h3>
-<h3 align="center">Finding 4 - Maranhão (MA) underperforms on both sides of the transaction simultaneously</h3>
-<h3 align="center">Finding 5 - Freight burden and late delivery risk concentrate in the same categories</h3>
-<h3 align="center">Finding 6 - bed_bath_table is the highest commercial risk category</h3>
-<h3 align="center">Finding 7 - 27.39% of marketplace revenue flows through the highest-risk seller segment</h3>
+<h3 align="left">Finding 1 - Olist's delivery promise is systematically conservative but operationally fragile</h3>
 
+**91.89%** of orders arrive early — **36.22%** by more than 14 days and **55.67%** by 1 to 14 days. The **8.11%** late delivery rate sits against a backdrop of systematic over-estimation. When Olist misses its own conservative promise the failures are significant — averaging **8.9** days late with a maximum of 188 days.
+
+<h3 align="left">Finding 2 - Delivery outcome is the primary driver of customer satisfaction</h3>
+
+On-time deliveries average **4.29** review score across **88,168** orders. Late deliveries average **2.57** across **7,662** orders — a **1.72** point gap on a 5-point scale. Undelivered orders average **1.75** across **2,843** orders — the most severe satisfaction failure in the data, lower even than late deliveries, confirming that customers who never received their order are more dissatisfied than those who received it late.
+
+<h3 align="left">Finding 3 - November 2017 and Q1 2018 represent the two most severe operational findings</h3>
+
+November 2017 late delivery rate spiked to **14.31%** as order volume surged **63%** month over month — Black Friday demand overwhelmed operational capacity. February and March 2018 reached **15.99%** and **21.36%** respectively — the worst two consecutive months in the data. Volume alone does not explain Q1 2018 — an unresolved operational anomaly requiring further investigation.
+
+<h3 align="left">Finding 4 - Maranhão (MA) underperforms on both sides of the transaction simultaneously</h3>
+
+Maranhão (MA) customers receive late deliveries at **19.67%** — second highest customer state in the data. Maranhão (MA) sellers ship late at **23.63%** — the highest seller state in the data. Maranhão (MA) customers average **3.76** review score — joint lowest in the data alongside Alagoas (AL). Maranhão (MA) is the only state appearing in the top two of both the delivery failure and satisfaction failure rankings simultaneously.
+
+<h3 align="left">Finding 5 - Freight burden and late delivery risk concentrate in the same categories</h3>
+
+christmas_supplies carries the highest freight burden at **0.6755** freight ratio — nearly double the **0.3209** marketplace benchmark — combined with a **12.00%** late delivery rate. fashion_underwear_beach at **0.5512** freight ratio and **12.60%** late delivery rate confirms the pattern. In these categories customers pay nearly as much or more in shipping as the product itself — compounding dissatisfaction risk when late delivery compounds an already expensive fulfillment cost.
+
+<h3 align="left">Finding 6 - bed_bath_table is the highest commercial risk category</h3>
+
+The highest revenue category at **$1,712,553.67** across **11,115** orders with a below-benchmark satisfaction score of **3.90** against the **4.09** marketplace average. At the category-state level, bed_bath_table from Paraná (PR) sellers carries the worst simultaneous delivery and satisfaction performance in the data — **22.73%** late delivery rate and **3.42** average review score. The combination of highest revenue concentration and worst composite operational performance makes this the single most actionable category finding in the data.
+
+<h3 align="left">Finding 7 - 27.39% of marketplace revenue flows through the highest-risk seller segment</h3>
+
+**308** sellers simultaneously deliver late at **16.34%** — double the **8.11%** benchmark — and generate a **3.65** average review score against the **4.09** marketplace benchmark. More than one quarter of Olist's marketplace revenue — **$5,562,819.39** — is carried by sellers underperforming on both delivery and satisfaction metrics at the same time.
 
 ---
 <h2 align="center">Scripts & Documentation</h2>
