@@ -115,7 +115,7 @@ Maranhão (MA) customers receive late deliveries at **19.67%** — second highes
 
 <h3 align="left">Finding 5 - Freight burden and late delivery risk concentrate in the same categories</h3>
 
-christmas_supplies carries the highest freight burden at **0.6755** freight ratio — nearly double the **0.3209** marketplace benchmark — combined with a **12.00%** late delivery rate. fashion_underwear_beach at **0.5512** freight ratio and **12.60%** late delivery rate confirms the pattern. In these categories customers pay nearly as much or more in shipping as the product itself — compounding dissatisfaction risk when late delivery compounds an already expensive fulfillment cost.
+christmas_supplies carries the highest freight burden at **0.6755** freight ratio — nearly double the **0.3209** marketplace benchmark — combined with a **12.00%** late delivery rate. fashion_underwear_beach at **0.5512** freight ratio and **12.60%** late delivery rate confirms the pattern. In these categories customers pay nearly as much or more in shipping as the product itself — a cost burden that intensifies dissatisfaction when delivery also fails.
 
 <h3 align="left">Finding 6 - bed_bath_table is the highest commercial risk category</h3>
 
