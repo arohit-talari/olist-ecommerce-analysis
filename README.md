@@ -89,7 +89,7 @@ With all eight tables structurally sound and cleaning decisions documented for e
 ---
 <h2 align="center">Key Findings</h2>
 
-**Portfolio Benchmark**
+<h3 align="left">Marketplace Benchmarks</h3>
 
 | Metric | Value |
 |---|---|
