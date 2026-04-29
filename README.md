@@ -2,7 +2,7 @@
   <img src="images/olist.png" width="300">
 </p>
 
-<h1 align="center">Olist</h1>
+<h1 align="center">Olist — Marketplace Risk Analysis</h1>
 
 <h2 align="center">Project Overview</h2>
 
