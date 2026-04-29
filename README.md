@@ -29,8 +29,8 @@ Before analysis began, the geolocation table was excluded entirely and columns w
 |---|---|
 | **Source** | Kaggle — [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data) |
 | **Files** | 8 relational CSV files |
-| **Total Records** | 99,441 orders · 112,650 line items across order_items |
-| **Tables Retained** | 8 of 9 - geolocation excluded |
+| **Total Records** | **99,441** orders · **112,650** line items across order_items |
+| **Tables Retained** | **8** of **9** - geolocation excluded |
 | **Structure** | Relational, order-level analytical dataset |
 
 --- 
