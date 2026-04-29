@@ -6,9 +6,7 @@
 
 <h2 align="center">Project Overview</h2>
 
-Olist is a Brazilian e-commerce platform connecting small and medium-sized merchants to major online marketplaces across the country. Unlike direct retailers, who control inventory, fulfillment, and customer experience end to end, Olist operates as a marketplace intermediary, a third-party connector that brings sellers and consumers together and facilitates the transaction without owning either side. Because Olist does not control seller behavior, product selection, or fulfillment directly, performance varies independently across thousands of transactions, making concentrated underperformance difficult to isolate without multi-variable analysis across the full relational structure of the platform.
-
-That challenge defines this project:
+Olist is a Brazilian e-commerce platform connecting small and medium-sized merchants to major online marketplaces across the country. Unlike direct retailers, who control inventory, fulfillment, and customer experience end to end, Olist operates as a marketplace intermediary, a third-party connector that brings sellers and consumers together and facilitates the transaction without owning either side. Because Olist does not control seller behavior, product selection, or fulfillment directly, performance varies independently at the transaction level, making concentrated underperformance difficult to isolate without multi-variable analysis across the full relational structure of the platform.
 
 > Which combination of seller behavior, product category, and delivery patterns drives the highest concentration of late deliveries, low customer satisfaction, and revenue risk?
 
