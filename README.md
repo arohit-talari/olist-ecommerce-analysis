@@ -128,9 +128,9 @@ The highest revenue category at **$1,712,553.67** across **11,115** orders with 
 ---
 <h2 align="center">Scripts & Documentation</h2>
 
-- **[Data Cleaning Script](scripts/olist_data_cleaning.sql)**: Resolves the structural, missingness, and encoding issues documented in the Data Cleaning & Transformation section. Each script block is annotated with the reasoning behind every decision — not just what the code does, but why.
+- **[Data Cleaning Script](scripts/olist_data_cleaning.sql)**: Resolves the structural, data quality, and encoding issues documented in the Data Cleaning & Transformation section. Each script block is annotated with the reasoning behind every decision — not just what the code does, but why.
 
-- **[Exploratory Data Analysis (EDA) Script](scripts/olist_eda.sql)**:  Runs univariate profiling, bivariate cross-tabulations, threshold analysis, and composite risk segmentation across the cleaned dataset. Each analytical block is documented with the question it was designed to answer.
+- **[Exploratory Data Analysis (EDA) Script](scripts/olist_eda.sql)**: Examines delivery performance, customer satisfaction, revenue concentration, and composite seller risk across the cleaned dataset. Each analytical block is documented with the question it was designed to answer.
 
 ---
 <h2 align="center">Technical Stack</h2>
