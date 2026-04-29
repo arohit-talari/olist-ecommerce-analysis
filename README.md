@@ -71,18 +71,18 @@ Cleaning moved column by column across all eight tables — each decision made o
 
 | Strategy | Table | Column | Decision |
 |---|---|---|---|
-| Blank string to NULL | `products`  | `product_category_name` | **610** blank strings converted to NULL before flag logic applied |
-| Blank string to NULL | `orders` | `order_approved_at` | **160** empty strings converted to NULL before timestamp conversion |
-| Blank string to NULL | `orders` | `order_delivered_carrier_date` | **1,783** empty strings converted to NULL before timestamp conversion |
-| Blank string to NULL | `orders` | `order_delivered_customer_date` | **2,965** empty strings converted to NULL before timestamp conversion |
-| Zero value to NULL | `products` | `product_weight_g` | **6** zero values converted to NULL — zero weight physically implausible for any shipped product |
-| Zero value to NULL | `products` | `product_length_cm` | **2** zero values converted to NULL | 
-| Zero value to NULL | `products` | `product_height_cm` | **2** zero values converted to NULL |
-| Invalid encoding to NULL | `order_payments` | `payment_type` | **3** records carrying not_defined set to NULL | 
+| Missing value identification | `products`  | `product_category_name` | **610** blank strings converted to NULL before flag logic applied |
+| Missing value identification | `orders` | `order_approved_at` | **160** empty strings converted to NULL before timestamp conversion |
+| Missing value identification | `orders` | `order_delivered_carrier_date` | **1,783** empty strings converted to NULL before timestamp conversion |
+| Missing value identification | `orders` | `order_delivered_customer_date` | **2,965** empty strings converted to NULL before timestamp conversion |
+| Implausible value removal | `products` | `product_weight_g` | **6** zero values converted to NULL — zero weight physically implausible for any shipped product |
+| Implausible value removal | `products` | `product_length_cm` | **2** zero values converted to NULL | 
+| Implausible value removal | `products` | `product_height_cm` | **2** zero values converted to NULL |
+| Invalid classification correction | `order_payments` | `payment_type` | **3** records carrying not_defined set to NULL | 
 | Flag, do not impute | `products` | `flag_null_category` | **610** records flagged — no category reliably inferable from other product attributes |
 | Flag, do not impute | `products` | `flag_suspect_weight` | **6** records flagged — no reliable imputation exists without knowing actual product weight |
 | Structural validation | `orders` | `order_approved_at`, `order_delivered_carrier_date`, `order_delivered_customer_date` | **160**, **1,783**, and **2,965** nulls structurally valid — orders never approved, never picked up, or never delivered have no timestamps by definition |
-| Window-based deduplication | `order_reviews` | `review records` | **551** records removed — most recent review per order preserved — higher review score retained as tiebreaker for identical creation dates |
+| Duplicate review removal | `order_reviews` | `review records` | **551** records removed — most recent review per order preserved — higher review score retained as tiebreaker for identical creation dates |
 
 With all eight tables structurally sound and cleaning decisions documented across every retained column, the data entering the analysis was positioned to answer where Olist's marketplace underperforms and which combination of seller behavior, product category, and delivery patterns drives the highest concentration of risk.
 
