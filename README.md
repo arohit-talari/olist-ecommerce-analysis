@@ -111,7 +111,7 @@ November 2017 late delivery rate spiked to **14.31%** as order volume surged **6
 
 <h3 align="left">Finding 4 - Maranhão (MA) underperforms on both sides of the transaction simultaneously</h3>
 
-Maranhão (MA) customers receive late deliveries at **19.67%** — second highest customer state in the data. Maranhão (MA) sellers ship late at **23.63%** — the highest seller state in the data. Maranhão (MA) customers average **3.76** review score — joint lowest in the data alongside Alagoas (AL). Maranhão (MA) is the only state appearing in the top two of both the delivery failure and satisfaction failure rankings simultaneously.
+MA customers receive late deliveries at **19.67%** — second highest customer state in the data. MA sellers ship late at **23.63%** — the highest seller state in the data. MA customers average **3.76** review score — joint lowest in the data alongside Alagoas (AL). Maranhão (MA) is the only state appearing in the top two of both the delivery failure and satisfaction failure rankings simultaneously.
 
 <h3 align="left">Finding 5 - Freight burden and late delivery risk concentrate in the same categories</h3>
 
