@@ -81,7 +81,7 @@ Cleaning moved column by column across all eight tables — each decision made o
 | Invalid encoding to NULL | `order_payments` | `payment_type` | **3** records carrying not_defined set to NULL | 
 | Flag, do not impute | `products` | `flag_null_category` | **610** records flagged — no category reliably inferable from other product attributes |
 | Flag, do not impute | `products` | `flag_suspect_weight` | **6** records flagged — no reliable imputation exists without knowing actual product weight |
-| Structural validation | `orders` | `timestamp nulls` | **160**, **1,783**, and **2,965** nulls structurally valid — orders never approved, never picked up, or never delivered have no timestamps by definition |
+| Structural validation | `orders` | `order_approved_at`, `order_delivered_carrier_date`, `order_delivered_customer_date` | **160**, **1,783**, and **2,965** nulls structurally valid — orders never approved, never picked up, or never delivered have no timestamps by definition |
 | Window-based deduplication | `order_reviews` | `review records` | **551** records removed — most recent review per order preserved — higher review score retained as tiebreaker for identical creation dates |
 
 With all eight tables structurally sound and cleaning decisions documented across every retained column, the data entering the analysis was positioned to answer where Olist's marketplace underperforms and which combination of seller behavior, product category, and delivery patterns drives the highest concentration of risk.
