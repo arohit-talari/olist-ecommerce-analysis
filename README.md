@@ -46,11 +46,11 @@ Eight distinct data quality scenarios were resolved on their own terms — each 
 
 <h3 align="left">Derived Metric Construction</h3>
 
-Constructed three derived metrics from raw source fields — none existed in the source data. **is_late_delivery** measured binary delivery outcome across **96,478** delivered orders. **delivery_days_variance** measured the magnitude of early and late deliveries in days — revealing Olist's estimates are systematically conservative by an average of **11.9** days. **freight_ratio** measured shipping cost as a proportion of product price — in high freight burden categories, customers pay nearly as much or more in shipping as the product itself.
+Constructed three derived metrics from raw source fields — none existed in the source data. **`is_late_delivery`** measured binary delivery outcome across **96,478** delivered orders. **`delivery_days_variance`** measured the magnitude of early and late deliveries in days — revealing Olist's estimates are systematically conservative by an average of **11.9** days. **`freight_ratio`** measured shipping cost as a proportion of product price — in high freight burden categories, customers pay nearly as much or more in shipping as the product itself.
 
 <h3 align="left">Delivery Performance and Satisfaction Cross-Analysis</h3>
 
-Examined how delivery outcome translates into customer satisfaction across geographic, category, and seller dimensions simultaneously — confirming a **1.72** point review score gap between on-time and late deliveries on a 5-point scale. Delivery timing is the single largest lever Olist has on customer satisfaction, and the primary driver of review score variation across the entire marketplace.
+Examined how delivery outcome translates into customer satisfaction across geographic, category, and seller dimensions simultaneously — confirming a **1.72** point review score gap between on-time and late deliveries on a 5-point scale. Delivery timing is the single largest driver of customer satisfaction across the marketplace.
 
 <h3 align="left">Composite Risk Segmentation</h3>
 
