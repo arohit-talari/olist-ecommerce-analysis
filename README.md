@@ -99,19 +99,19 @@ With all eight tables structurally sound and cleaning decisions documented for e
 
 <h3 align="left">Olist's delivery promise is systematically conservative but operationally fragile</h3>
 
-**91.89%** of orders arrive early — **36.22%** by more than 14 days and **55.67%** by 1 to 14 days. The **8.11%** late delivery rate sits against a backdrop of systematic over-estimation. When Olist misses its own conservative promise the failures are significant — averaging **8.9** days late with a maximum of 188 days.
+**91.89%** of orders arrive early — **36.22%** by more than 14 days and **55.67%** by 1 to 14 days. The **8.11%** late delivery rate sits against a backdrop of systematic over-estimation. When Olist misses its own conservative promise, the failures are significant. The average delay is **8.9** days, with a maximum of 188 days.
 
 <h3 align="left">Delivery outcome is the primary driver of customer satisfaction</h3>
 
-On-time deliveries average **4.29** review score across **88,168** orders. Late deliveries average **2.57** across **7,662** orders — a **1.72** point gap on a 5-point scale. Undelivered orders average **1.75** across **2,843** orders — the most severe satisfaction failure in the data, lower even than late deliveries, confirming that customers who never received their order are more dissatisfied than those who received it late.
+On-time deliveries average **4.29** review score across **88,168** orders. Late deliveries average **2.57** across **7,662** orders, a **1.72** point gap on a 5-point scale. Undelivered orders average **1.75** across **2,843** orders, the most severe satisfaction failure in the data. Customers who never received their order are more dissatisfied than those who received it late.
 
 <h3 align="left">November 2017 and Q1 2018 represent the two most severe operational failures</h3>
 
-November 2017 late delivery rate spiked to **14.31%** as order volume surged **63%** month over month — Black Friday demand overwhelmed operational capacity. February and March 2018 reached **15.99%** and **21.36%** respectively — the worst two consecutive months in the data. Volume alone does not explain Q1 2018 — an unresolved operational anomaly requiring further investigation.
+November 2017 late delivery rate spiked to **14.31%** as order volume surged **63%** month over month. Black Friday demand overwhelmed operational capacity. February and March 2018 reached **15.99%** and **21.36%** respectively, the worst two consecutive months in the data. Volume alone does not explain Q1 2018, an unresolved operational anomaly requiring further investigation.
 
 <h3 align="left">Maranhão (MA) underperforms on both sides of the transaction simultaneously</h3>
 
-MA customers receive late deliveries at **19.67%** — second highest customer state in the data. MA sellers ship late at **23.63%** — the highest seller state in the data. MA customers average **3.76** review score — joint lowest in the data alongside Alagoas (AL). Maranhão (MA) is the only state appearing in the top two of both the delivery failure and satisfaction failure rankings simultaneously.
+MA customers receive late deliveries at **19.67%**, second highest customer state in the data. MA sellers ship late at **23.63%**, the highest seller state in the data. MA customers average **3.76** review score, joint lowest in the data alongside Alagoas (AL). Maranhão (MA) is the only state appearing in the top two of both the delivery failure and satisfaction failure rankings simultaneously.
 
 <h3 align="left">Freight burden and late delivery risk concentrate in the same categories</h3>
 
@@ -119,7 +119,7 @@ MA customers receive late deliveries at **19.67%** — second highest customer s
 
 <h3 align="left">bed_bath_table is the highest commercial risk category</h3>
 
-The highest revenue category at **$1,712,553.67** across **11,115** orders with a below-benchmark satisfaction score of **3.90** against the **4.09** marketplace average. At the category-state level, `bed_bath_table` from Paraná (PR) sellers carries the worst simultaneous delivery and satisfaction performance in the data — **22.73%** late delivery rate and **3.42** average review score. The combination of highest revenue concentration and worst composite operational performance makes this the single most actionable category finding in the data.
+The highest revenue category at **$1,712,553** across **11,115** orders with a below-benchmark satisfaction score of **3.90** against the **4.09** marketplace average. At the category-state level, `bed_bath_table` from Paraná (PR) sellers carries the worst simultaneous delivery and satisfaction performance in the data — **22.73%** late delivery rate and **3.42** average review score. The combination of highest revenue concentration and worst composite operational performance makes this the single most actionable category finding in the data.
 
 <h3 align="left">27.39% of marketplace revenue flows through the highest-risk seller segment</h3>
 
