@@ -21,7 +21,7 @@ The analysis identified where underperformance concentrates and what it costs. A
 ---
 <h2 align="center">Dataset & Scope</h2>
 
-The analysis uses the Olist Brazilian E-Commerce dataset — order-level marketplace transaction data capturing delivery performance, seller behavior, and customer satisfaction across eight relational tables. The order is the central analytical unit connecting every other table — fulfillment, payment, review, seller, product, and customer all trace back to a single order spanning **99,441** transactions and **112,650** line items in `order_items`.
+The analysis uses the Olist Brazilian E-Commerce dataset — order-level marketplace transaction data capturing delivery performance, seller behavior, and customer satisfaction across eight relational tables. The order is the central analytical unit connecting every other table. Fulfillment, payment, review, seller, product, and customer all trace back to a single order spanning **99,441** transactions and **112,650** line items in `order_items`.
 
 Before analysis began, the `geolocation` table was excluded entirely and columns were scoped across the remaining eight. The full rationale for every exclusion decision is documented in the Data Cleaning section.
 
