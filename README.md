@@ -54,7 +54,7 @@ Examined how delivery outcome translates into customer satisfaction across geogr
 
 <h3 align="left">Composite Risk Segmentation</h3>
 
-Combined seller late delivery rate and average review score against marketplace benchmarks to classify **3,095** sellers into four performance tiers. The revenue at risk calculation — **$5,562,819.39** carried by **308** sellers delivering late above benchmark and generating below-benchmark satisfaction simultaneously — translates operational underperformance directly into a financial exposure figure.
+Combined seller late delivery rate and average review score against marketplace benchmarks to classify **3,095** sellers into four performance tiers. The revenue at risk calculation — **$5,562,819** carried by **308** sellers delivering late above benchmark and generating below-benchmark satisfaction simultaneously — translates operational underperformance directly into a financial exposure figure.
 
 <h3 align="left">SQL Execution</h3>
 
